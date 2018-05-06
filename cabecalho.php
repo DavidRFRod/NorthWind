@@ -11,7 +11,7 @@
         <script src="bootstrap-3.3.7-dist/js/jquery-3.3.1.min.js" type="text/javascript"></script>
         <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="bootstrap-3.3.7-dist/js/npm.js" type="text/javascript"></script>
-     
+
         <style>
             body {
                 padding-top: 50px;
@@ -31,10 +31,10 @@
                 </div>
                 <div> 
                     <ul class="nav navbar-nav"> 
-                        <li><a href ="funcionarios.php">Cadastrar Funcionários</a></li>
+                        <li><a href ="cadastrar_funcionario.php">Cadastrar Funcionários</a></li>
                         <li><a href ="clientes.php">Clientes</a></li>
                         <li><a href ="funcionarios.php">Funcionarios</a></li>
-                        
+
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href ="#">Produtos
                                 <span class="caret"></span></a>
@@ -42,6 +42,7 @@
                                 <li><a href ="categorias.php">Categorias</a></li>
                             </ul>
                         </li>
+                        <li><a href ="funcionarios_territorios.php">Local Funcionario</a></li>
                         <li><a href ="territorios.php">Territórios</a></li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href ="#">Transportadoras
@@ -52,10 +53,10 @@
                             </ul>
                         </li>
                         <li><a href ="regiao.php">Região</a></li>
-                             
+
                     </ul> 
                 </div>   
             </div>
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <div class="principal">
