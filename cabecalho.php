@@ -34,7 +34,6 @@
                         <li><a href ="cadastrar_funcionario.php">Cadastrar Funcionários</a></li>
                         <li><a href ="clientes.php">Clientes</a></li>
                         <li><a href ="funcionarios.php">Funcionarios</a></li>
-
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href ="#">Produtos
                                 <span class="caret"></span></a>

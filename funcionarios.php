@@ -28,7 +28,7 @@ include_once ("basededados_funcionario.php");
     foreach ($funcionarios as $funcionario):
         ?>
         <tr>
-            <td><?= ($funcionario["IDFuncionario"]) ?></td>
+            <td><?= ($funcionario["IDFuncionario"])?></td>
             <td><?= ($funcionario["Nome"]) ?></td>
             <td><?= $funcionario["Sobrenome"] ?> </td>
             <td><?= $funcionario["Titulo"] ?> </td>
@@ -45,8 +45,8 @@ include_once ("basededados_funcionario.php");
             <td><?= $funcionario["Notas"] ?> </td>
             <td><?= $funcionario["Reportase"] ?> </td>
             <td><?= $funcionario["FotoCaminho"] ?> </td>
-            <td><a class="btn btn-primary" href="produto-update-form.php?id=<?= $produto["id"] ?>">Alterar</a>
-                <a class="btn btn-danger" href="produto-delete.php?id=<?= $produto["id"] ?>">Deletar</a>
+            <td><a class="btn btn-primary" href="alterar_funcionario_form.php?IDFuncionario=<?= $funcionario["IDFuncionario"] ?>">Alterar</a>
+                <a class="btn btn-danger" href="deletar_funcionario.php?IDFuncionario=<?= $funcionario["IDFuncionario"] ?>">Deletar</a>
             </td>
 
         </tr>

@@ -9,8 +9,8 @@ include_once ("basededados_funcionario.php");
         <form action="cadastrar_funcionario_ins.php" method="GET">
             <fildset>
                 <div class="form-group">
-                    <label for="IDfun">ID Funcionário</label>
-                    <input type="text" class="form-control" id="IDFuncionario" name='IDfun' placeholder="ID Funcionario">
+                    <label for="IDFuncionario">ID Funcionário</label>
+                    <input type="text" class="form-control" id="IDFuncionario" name='IDFuncionario' placeholder="ID Funcionario">
                 </div>
                 <div class="form-group">
                     <label for="Nome">Nome</label>
